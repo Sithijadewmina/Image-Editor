@@ -13,13 +13,13 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("✍️HELP", callback_data="help_data"),
+                        InlineKeyboardButton("🤖ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "🔥Support us🔥",
+                            url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA",
                         )
                     ],
                 ]
@@ -39,13 +39,13 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🔙BACK", callback_data="start_data"),
+                        InlineKeyboardButton("🤖ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "🔥Support us🔥",
+                            url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA",
                         )
                     ],
                 ]
@@ -65,13 +65,13 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
+                        InlineKeyboardButton("🔙BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "🔥Support us🔥",
+                            url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA",
                         )
                     ],
                 ]
