@@ -15,10 +15,14 @@ async def start(client: Client, message: Message):
                     [
                         InlineKeyboardButton("✍️HELP", callback_data="help_data"),
                         InlineKeyboardButton("🤖ABOUT", callback_data="about_data"),
+                        )
+                    ],  [
+                        InlineKeyboardButton("📪UPDATES", url="https://t.me/CGSUpdates"),
+                        InlineKeyboardButton("🤝SUPPORT", url="https://t.me/CGSsupport"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "🔥Support us🔥",
+                            "🔥Donate your subscribe🔥",
                             url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA",
                         )
                     ],
