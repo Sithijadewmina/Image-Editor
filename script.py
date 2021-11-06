@@ -4,21 +4,21 @@ class script(object):
 
 I'm a PʀᴏEᴅɪᴛᴏʀ Bot which edit your photos creatively
 
-For more click help....</b>"""
+click help for more instructions....</b>"""
     HELP_MSG = """Hai, Follow these Steps..
 
-<code>🌀 Send me any Image to Edit..</code>
+💠 Send me any Image what you want to Edit..
 
-<code>🌀 Select the Corresponding mode that you need</code>
+💠 Select the feature that you need
 
-<code>🌀 Your Edited Image will be Uploaded </code>
+💠 Your Edited Image will be Uploaded instantly
 
 
-✍️ @Graphic_Mobile"""
-    ABOUT_MSG = """⭕️<b>My Name : PʀᴏEᴅɪᴛᴏʀ</b>
+✍️powered by @CGSUpdates"""
+    ABOUT_MSG = """✍️<b>My Name : PʀᴏEᴅɪᴛᴏʀ</b>
 
-⭕️<b>Language :</b> <code>Python3</code>
+★<b>Language :</b> <code>Python3</code>
 
-⭕️<b>Powered by :</b> <a href='https://t.me/Graphic_Mobile'>Graphic Mobile</a>
+★<b>Powered by :</b> <a href='https://t.me/CGSUpdates'>CGS Updates</a>
 
-⭕️<b>Developer :</b> 👉 <a href='https://t.me/Artboylkchat_bot'>Artboylk</a>"""
+★<b>Developer :</b> 👉 <a href='https://t.me/Artboylkchat_bot'>Artboylk</a>"""
